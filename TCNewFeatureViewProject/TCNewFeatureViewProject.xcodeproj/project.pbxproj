@@ -15,6 +15,7 @@
 		50154FA91EC46B8700445DB7 /* TCNewFeatureViewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50154FA81EC46B8700445DB7 /* TCNewFeatureViewProjectTests.swift */; };
 		50154FB41EC46B8700445DB7 /* TCNewFeatureViewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50154FB31EC46B8700445DB7 /* TCNewFeatureViewProjectUITests.swift */; };
 		50154FC31EC46BC900445DB7 /* TCNewFeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50154FC21EC46BC900445DB7 /* TCNewFeatureCell.swift */; };
+		50154FC51EC46D6900445DB7 /* TCNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50154FC41EC46D6900445DB7 /* TCNewFeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		50154FB31EC46B8700445DB7 /* TCNewFeatureViewProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCNewFeatureViewProjectUITests.swift; sourceTree = "<group>"; };
 		50154FB51EC46B8700445DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50154FC21EC46BC900445DB7 /* TCNewFeatureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCNewFeatureCell.swift; sourceTree = "<group>"; };
+		50154FC41EC46D6900445DB7 /* TCNewFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCNewFeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				50154FC21EC46BC900445DB7 /* TCNewFeatureCell.swift */,
+				50154FC41EC46D6900445DB7 /* TCNewFeatureView.swift */,
 			);
 			path = TCNewFeatureView;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50154F961EC46B8700445DB7 /* ViewController.swift in Sources */,
+				50154FC51EC46D6900445DB7 /* TCNewFeatureView.swift in Sources */,
 				50154F941EC46B8700445DB7 /* AppDelegate.swift in Sources */,
 				50154FC31EC46BC900445DB7 /* TCNewFeatureCell.swift in Sources */,
 			);
