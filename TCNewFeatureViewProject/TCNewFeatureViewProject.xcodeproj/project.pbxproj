@@ -14,6 +14,7 @@
 		50154F5D1EC421EA00445DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50154F5B1EC421EA00445DB7 /* LaunchScreen.storyboard */; };
 		50154F681EC421EA00445DB7 /* TCNewFeatureViewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50154F671EC421EA00445DB7 /* TCNewFeatureViewProjectTests.swift */; };
 		50154F731EC421EA00445DB7 /* TCNewFeatureViewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50154F721EC421EA00445DB7 /* TCNewFeatureViewProjectUITests.swift */; };
+		50154F841EC44D4000445DB7 /* TCNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50154F831EC44D4000445DB7 /* TCNewFeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		50154F6E1EC421EA00445DB7 /* TCNewFeatureViewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCNewFeatureViewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50154F721EC421EA00445DB7 /* TCNewFeatureViewProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCNewFeatureViewProjectUITests.swift; sourceTree = "<group>"; };
 		50154F741EC421EA00445DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50154F831EC44D4000445DB7 /* TCNewFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCNewFeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		50154F801EC42C4D00445DB7 /* TCNewFeatureView */ = {
 			isa = PBXGroup;
 			children = (
+				50154F831EC44D4000445DB7 /* TCNewFeatureView.swift */,
 			);
 			path = TCNewFeatureView;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				50154F551EC421EA00445DB7 /* ViewController.swift in Sources */,
 				50154F531EC421EA00445DB7 /* AppDelegate.swift in Sources */,
+				50154F841EC44D4000445DB7 /* TCNewFeatureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
