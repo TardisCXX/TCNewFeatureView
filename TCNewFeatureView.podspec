@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TCNewFeatureView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "一个不错的新特性视图"
   s.homepage     = "https://github.com/TardisCXX/TCNewFeatureView"
   s.license      = "MIT"
